@@ -32,9 +32,9 @@ There are several challenges and limitations associated with Data Structures and
 
 ## Conclusion
 
-In conclusion, Data Structures and Algorithms (DSA) is a fundamental concept in computer science that plays a critical role in organizing and processing data efficiently. DSA includes various data structures and algorithms for searching, sorting, and manipulating data. It is essential for understanding the performance and scalability of programs and is crucial for the design of efficient and optimized software.
+In conclusion, **Data Structures and Algorithms (DSA)** is a fundamental concept in computer science that plays a critical role in organizing and processing data efficiently. DSA includes various data structures and algorithms for searching, sorting, and manipulating data. It is essential for understanding the performance and scalability of programs and is crucial for the design of efficient and optimized software.
 
-However, there are also challenges and limitations associated with DSA such as complexity, time and space constraints, constant optimization, adaptability, and memory constraints. Additionally, in real-time systems, some DSA may not be suitable and parallelism and concurrency can also be a challenge. Despite these challenges, DSA is a valuable and ongoing area of research and development in computer science.
+However, there are also challenges and limitations associated with DSA such as **complexity**, **time** and **space constraints**, **constant optimization**, **adaptability**, and **memory constraints**. Additionally, in real-time systems, some DSA may not be suitable and parallelism and concurrency can also be a challenge. Despite these challenges, DSA is a valuable and ongoing area of research and development in computer science.
 
 ### MIT Licence
 
