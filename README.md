@@ -6,7 +6,7 @@
 2. **C++**
 3. **Java**
 
-## Why Wordle?
+## Why DSA?
 
 **Data Structures and Algorithms (DSA)** is a fundamental concept in computer science that is used to organize and process data efficiently. DSA includes various data structures such as arrays, linked lists, stacks, queues, trees, and graphs, as well as algorithms for searching, sorting, and manipulating data.
 
