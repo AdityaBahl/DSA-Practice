@@ -14,15 +14,21 @@ DSA is essential for understanding the performance and scalability of programs, 
 
 ## Challenges and Limitations
 
-1. **Integrating with external APIs:** Depending on the APIs used, integrating with them can be a complex task. There may be issues with authentication, rate limiting, or handling unexpected responses.
+There are several challenges and limitations associated with Data Structures and Algorithms (DSA):
 
-2. **Managing the game state:** As the game progresses, the state of the game will change (e.g., new grids of letters will be displayed, scores will be updated). Care must be taken to ensure that the game state is properly managed and persisted, especially if the game is being played by multiple users concurrently.
+1. **Complexity:** Some algorithms and data structures can be quite complex to understand and implement, especially for beginners.
 
-3. **Ensuring performance:** A slow or unresponsive game can be frustrating for players. Careful optimization of the code and use of appropriate caching techniques can help ensure good performance.
+2. **Time and Space:** Some algorithms have high time and space complexity, which can make them less efficient for large data sets or limited computational resources.
 
-4. **Testing and debugging:** As with any software project, testing and debugging are important tasks that must be undertaken to ensure that the game is functioning correctly. This can be especially challenging in a web-based game that involves interactions with external APIs.
+3. **Constant Optimization:** As data size increases, the constant factors of an algorithm can become increasingly important. It can be challenging to optimize algorithms to minimize constant factors.
 
-5. **Maintaining security:** It is important to ensure that the game is secure and that user data is protected. This may involve implementing measures such as input validation and sanitization, as well as properly handling sensitive information such as passwords and API Keys.
+4. **Adaptability:** Algorithms and data structures that work well for one problem may not be well-suited for others. It can be challenging to adapt and modify existing algorithms and data structures to fit new problems.
+
+5. **Real-time systems:** Some DSA are not suitable for real-time systems as they might not be able to provide the output within the required time.
+
+6. **Memory constraints:** Some DSA requires more memory than others, this can be a limitation when working with systems that have limited memory.
+
+7. **Parallelism and Concurrency:** Algorithms and data structures that are designed for sequential processing may not be well-suited for parallel or concurrent environments.
 
 ## Conclusion
 
