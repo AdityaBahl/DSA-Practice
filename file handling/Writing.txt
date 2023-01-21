@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    int opt;
+    FILE *fptr,*gptr,*eptr;
+    char name[50];
+    fptr=fopen("boys.txt\n","w");
+    eptr=fopen("girls.txt\n","w");
+    gptr=fopen("students.txt\n","w");
+    if(fptr==NULL&&gptr==NULL&&eptr==NULL)
+    {
+        printf("Error on printing From File\n");
+        return -1;
+    }
+    do
+    {
+        printf("Enter Name:\n");
+        scanf("%s", name);
+        if(strlen(name)>1)
+        printf("Boy(1) or Girl(2)?\n");
+        scanf("%d",&opt);
+        if(opt==1)
+        {
+            fprintf(fptr,"%s\n",name);
+            fprintf(gptr,"%s\n",name);
+        }
+        else if(opt==2)
+        {
+            fprintf(eptr,"%s\n",name);
+            fprintf(gptr,"%s\n",name);
+        }
+        else
+        {
+            printf("By default printing only in students\n");
+            fprintf(gptr,"%s\n",name);
+        }
+    } while(strlen(name)>1);
+    return 0;
+}
