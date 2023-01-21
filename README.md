@@ -1,6 +1,4 @@
-# Data Structure And Algorithm
-
-![image](https://github.com/AdityaBahl/Wordle-Game/blob/main/sample.png)
+# Data Structure And Algorithms
 
 ## Technologies Used
 
@@ -10,17 +8,9 @@
 
 ## Why Wordle?
 
-**Wordle** is a web-based game that uses APIs (Application Programming Interfaces) and Node.js to provide users with a fun and interactive experience. APIs allow Wordle to access and retrieve data from external sources, such as a dictionary or thesaurus, and use that data to generate the words and challenges that players must solve. Node.js, a JavaScript runtime built on Chrome's V8 JavaScript engine, is used to execute the game's code and handle its server-side logic. By using APIs and Node.js, Wordle is able to provide a seamless and dynamic gaming experience for players.
+**Data Structures and Algorithms (DSA)** is a fundamental concept in computer science that is used to organize and process data efficiently. DSA includes various data structures such as arrays, linked lists, stacks, queues, trees, and graphs, as well as algorithms for searching, sorting, and manipulating data.
 
-## Algorithm
-
-1. The game generates a grid of letters and displays it to the player.
-2. The player selects a sequence of letters in the grid to form a word.
-3. The game sends a request to a dictionary API to check if the word is a valid English word.
-4. If the word is valid, the game updates the score and displays a new grid of letters to the player.
-5. If the word is not valid, the game informs the player and allows them to try again.
-
-This is just one possible approach to building a Wordle-like game. There are many other ways to design and implement such a game, and the specific algorithms and techniques used will depend on the desired features and functionality of the game.
+DSA is essential for understanding the performance and scalability of programs, and is crucial for the design of efficient and optimized software. It is used in a wide range of fields including computer science, engineering, and mathematics. It is also a common topic in technical interviews for software development positions.
 
 ## Challenges and Limitations
 
