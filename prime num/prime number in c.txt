@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
-
+// This is done in C Language
 int prime(int);
 int main()
 {
