@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+struct node
+{
+    int val;
+    struct node *next
+    };
+void traverse(struct node *ptr)
+{
+    while(ptr!=NULL)
+    {
+        printf("Element %d\n", ptr->val);
+        ptr=ptr->next;
+    }
+
+}
+int main()
+{
+    struct node *head;
+    struct node *second;
+    struct node *third;
+
+    head=(struct node*)malloc(sizeof(struct node));
+    second=(struct node*)malloc(sizeof(struct node));
+    third=(struct node*)malloc(sizeof(struct node));
+
+    head->val=71;
+    head->next=second;
+
+    second->val=20;
+    second->next=third;
+
+    third->val=87;
+    third->next=NULL;
+
+    traverse(head);
+    return 0;
+}
