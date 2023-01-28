@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1635074257 source:c:\users\adi\desktop\codes\prime num\primenum\main.c
+	<stdio.h>
+	<stdlib.h>
+
